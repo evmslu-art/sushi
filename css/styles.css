@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #020303;
+
+}
+
+.header {
+    background-color: #020303;
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .container, .main .container, .sushi .container footer.container {
+    font-size: 0;
+}
+
+.header-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 125px;
+}
+
+.header-logo img {
+    max-width: 100%;
+    display: block;
+}
+
+
+.menu {
+    margin-left: 318px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+
+.menu ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 30px;
+}
+
+.menu ul li:first-child {
+    margin-left: 0;
+}
+
+.menu ul li:nth-child(3) {
+    margin: 0 24px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    /*line-height: 1.2;*/
+    padding-bottom: 6px;
+}
+
+.menu ul li a:hover {
+    color: rgb(255, 175, 24);
+    border-bottom: 2px solid rgb(255, 175, 24);;
+}
+
+.main {
+    background-color: #020303;
+    padding: 133px 0 80px 0;
+}
+
+.main-info {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 494px;
+}
+
+.main-image {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 30px;
+}
+
+.main-info h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    /*line-height: 1.222;*/
+    margin-bottom: 75px;
+}
+
+.main-info h1 span {
+    color: #ffaf18;
+}
+
+.main-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.main-text img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.main-info span:nth-child(2) {
+    margin-left: 100px;
+}
+
+.button {
+    background-color: rgb(255, 175, 24);
+    width: 224px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    /*text-decoration: none;*/
+    /*padding: 22px 0;*/
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    /*line-height: 3.438;*/
+    text-align: center;
+    /*display: inline-block;*/
+    cursor: pointer;
+
+}
+
+.button:hover {
+    box-shadow: 0 20px 15px 0 rgba(255, 167, 0, 0.2);
+
+}
+
+.button.button-main-choose {
+    margin-block: 92px 45px;
+    /*    margin-top: 92px;*/
+    /*    margin-bottom: 245px;*/
+}
+
+.sushi {
+    background-color: rgb(2, 3, 3);
+    padding-block: 120px 108px;
+}
+
+.sushi-items {
+    font-size: 0;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.sushi h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    /*line-height: 1.571;*/
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.sushi-block {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    border: none;
+    box-sizing: border-box;
+    width: 282px;
+    height: 354px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 12px;
+    padding: 10px 20px 15px 20px;
+}
+
+.sushi-block:hover {
+    box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.sushi-item-image {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 20px 0 20px;
+    width: 200px;
+    height: 154px;
+    text-align: center;
+}
+
+.sushi-block .sushi-item-text h4 {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    line-height: 3.056;
+    text-align: center;
+    /*margin-bottom: 14px;*/
+}
+
+.sushi-block .sushi-item-text {
+    /*padding: 0 20px 0 20px;*/
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    text-align: center;
+    height: 108px;
+    margin-bottom: 15px;
+}
+
+
+.sushi-items .sushi-block:first-child {
+    /*background-color: rgb(237, 224, 248);*/
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(237, 155, 0);
+}
+
+.sushi-items .sushi-block:last-child {
+    border: 5px solid rgb(237, 155, 0);
+}
+
+.button.button-sushi-basket {
+    /*border: 1px solid green;*/
+    /*padding: 0 0 15px 0;*/
+    width: 242px;
+    height: 50px;
+    /*box-sizing: border-box;*/
+}
+
+
+.sushi-more {
+    padding-block: 120px 60px;
+}
+
+.sushi-more-text {
+    max-width: 379px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sushi-more-title {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    margin-bottom: 60px;
+}
+
+p {
+    width: 346px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.sushi-more h3 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+
+.sushi-more-icons {
+    font-size: 0;
+}
+
+.sushi-more-icons a {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.sushi-more-icons img {
+    max-width: 34px;
+    max-height: 34px;
+    vertical-align: middle;
+}
+
+.sushi-more-icons a:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.sushi-more-icons a:active {
+    background-color: #ffaf18;
+    border-radius: 50%;
+}
+
+.sushi-more-icons a:visited {
+    background-color: #bebebe;
+    border-radius: 50%;
+}
+
+.sushi-more-image {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 48px;
+}
+
+footer {
+    background-color: black;
+    padding: 30px 0;
+}
+
+footer img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 125px;
+}
+
+footer span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+    text-align: center;
+    margin-left: 391px;
+}
